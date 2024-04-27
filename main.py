@@ -237,8 +237,5 @@ def mostrar_simulacion(_, valores_observados, total_dias, venta, costos, remuner
 
 # Ejecutar la aplicación
 if __name__ == '__main__':
-    #app.run_server(debug=True)
-    PORT = 8050  # Definimos el puerto en el que se ejecutará la aplicación
-    webbrowser.open(f'http://127.0.0.1:{PORT}')  # Abrimos el navegador automáticamente en la dirección local
-    app.run_server(port=PORT, debug=False)
-
+    app.run_server(debug=True)
+    
