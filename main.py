@@ -17,7 +17,7 @@ from calculos import simular_ausentismo
 
 # Crear la aplicación Dash
 app = dash.Dash(__name__)
-
+server = app.server
 # Definir la lista de nombres para los campos de entrada
 nombres_input = ['0', '1', '2', '3', '4', '5 o más']
 
